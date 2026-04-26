@@ -22,7 +22,7 @@ int main() {
     int n;
     // Input number of disks
     printf("Enter number of disks: ");
-    scanf("%d, &n);
+    scanf("%d", &n);
     // Call Tower of Hanoi function
     toh(n, 'S', 'D', 'T');  // S = Source, D = Destination, T = Temporary
     return 0;
